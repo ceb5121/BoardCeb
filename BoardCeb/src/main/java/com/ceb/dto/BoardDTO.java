@@ -1,13 +1,13 @@
 package com.ceb.dto;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 public class BoardDTO {
 	private Integer board_num;
 	private String user_id;
 	private String title;
 	private String context;
-	private LocalDateTime regdate;
+	private Date regdate;
 	private Integer viewcnt;
 	
 	
@@ -40,10 +40,10 @@ public class BoardDTO {
 	public void setContext(String context) {
 		this.context = context;
 	}
-	public LocalDateTime getRegdate() {
+	public Date getRegdate() {
 		return regdate;
 	}
-	public void setRegdate(LocalDateTime regdate) {
+	public void setRegdate(Date regdate) {
 		this.regdate = regdate;
 	}
 	public Integer getViewcnt() {

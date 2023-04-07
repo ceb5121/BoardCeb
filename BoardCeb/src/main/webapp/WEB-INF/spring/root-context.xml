@@ -13,7 +13,7 @@
 		name="dataSource">
 		<property value="oracle.jdbc.driver.OracleDriver"
 			name="driverClassName" />
-		<property value="jdbc:oracle:thin:@localhost:1521:xe"
+		<property value="jdbc:oracle:thin:@localhost:1521:orcl"
 			name="url" />
 		<property value="c##ceb" name="username" />
 		<property value="ceb" name="password" />

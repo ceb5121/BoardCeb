@@ -46,4 +46,10 @@ public class BoardModelImpl implements IBoardModel {
 		dao.delete(board_num);
 	}
 
+	@Override
+	public void readPost(int board_num) throws Exception {
+		BoardDAO dao = sqlsession.getMapper(BoardDAO.class);
+		dao.viewCnt(board_num);
+	}
+
 }

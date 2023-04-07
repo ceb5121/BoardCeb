@@ -10,4 +10,5 @@ public interface IBoardModel {
 	public BoardDTO read(int board_num) throws Exception;
 	public void modify(BoardDTO vo) throws Exception;
 	public void remove(int board_num) throws Exception;
+	public void readPost(int board_num) throws Exception;
 }

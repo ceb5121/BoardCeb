@@ -10,4 +10,5 @@ public interface BoardDAO {
 	public BoardDTO read(int board_num) throws Exception;
 	public void update(BoardDTO vo) throws Exception;
 	public void delete(int board_num) throws Exception;
+	public void viewCnt(int board_num) throws Exception;
 }
