@@ -38,6 +38,7 @@ textarea {
 </style>
 </head>
 <body>
+<!-- 파일 업로드 및 페이지 기능 구현 후 로그인 구현 예정 -->
 <h2>게시판 글 등록</h2>
 <form action='/ex/board/write' method='post'>
 	<p>제목</p>
